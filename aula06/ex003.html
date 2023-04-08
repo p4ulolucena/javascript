@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 255, 0.452);
+            color: white;
+        }
+
+        h1 {
+           color: rgb(233, 233, 81);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //Recebe valor string
+        var n2 = Number(window.prompt('Digite outro número: ')) //Recebe valor string
+        var s = n1 + n2
+        window.alert(`A soma dos valores de ${n1} e ${n2} é igual a ${s}`) //Com crase ``
+        // + Serve para Concatenação ou adição
+        /*
+        parseFloat = número real
+        parseInt = número inteiro
+        */
+    </script>
+</body>
+</html>
